@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "npm install -g pnpm && pnpm install",
+  "buildCommand": "pnpm --filter @workspace/mariiutrera-premium run build",
+  "outputDirectory": "artifacts/mariiutrera-premium/dist/public",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
